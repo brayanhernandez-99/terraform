@@ -1,0 +1,22 @@
+# Archivos de Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Archivos de backup de Terraform
+*.backup
+*.terraform.lock.hcl
+
+# Carpetas locales de Terraform
+.terraform/
+
+# Salidas de planes (opcional, si usas terraform plan -out=...)
+*.tfplan
+
+# Archivos de logs o temporales (opcional)
+crash.log
+
+# Archivos del sistema operativo (Mac y Windows)
+.DS_Store
+Thumbs.db
