@@ -66,9 +66,7 @@
 
 Terraform trabaja con _providers_ para manejar diferentes plataformas.
 
-```bash
-# Ejemplo con AWS
-
+```hcl
 provider "aws" {
   region = "us-east-1"
 }
