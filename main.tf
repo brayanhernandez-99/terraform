@@ -117,3 +117,4 @@ resource "aws_instance" "ec2_frontend" {
     Name = "ec2_frontend"
   }
 }
+
