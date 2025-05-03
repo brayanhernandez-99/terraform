@@ -1,13 +1,13 @@
 # Provider 
 provider "aws" {
-  region = "us-east-1"
+  region = var.region
 }
 
 # VPC
 resource "aws_vpc" "vpc_example" {
-  cidr_block = "192.168.0.0/16"
+  cidr_block = var.vpc_block
 
-  tags {
+  tags = {
     Name = "vpc_example"
   }
 }
